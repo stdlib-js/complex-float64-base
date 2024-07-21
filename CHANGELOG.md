@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-19)
+## Unreleased (2024-07-21)
 
 <section class="packages">
 
@@ -246,9 +246,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
@@ -260,6 +261,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
 -   [`c89d08c`](https://github.com/stdlib-js/stdlib/commit/c89d08c3733ca6b6f1fab8d8ebc95663b8190b5e) - **feat:** add `assert` to namespace _(by Athan Reines)_
 -   [`5bb602e`](https://github.com/stdlib-js/stdlib/commit/5bb602e63ab9d543d6f2702a556e7569d01277bb) - **feat:** add `complex/float64/base/assert` namespace _(by Athan Reines)_
