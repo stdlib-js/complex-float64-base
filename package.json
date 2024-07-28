@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-float64-base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Base (i.e., lower-level) double-precision complex number functions.",
   "license": "Apache-2.0",
   "author": {

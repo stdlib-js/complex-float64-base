@@ -2,7 +2,33 @@
 
 > Package changelog.
 
-<section class="release" id="v0.1.0">
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2024-07-28)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
 
 ## 0.1.0 (2024-07-28)
 
@@ -10,7 +36,7 @@
 
 ### Packages
 
-<section class="package" id="complex-float64-base-unreleased">
+<section class="package" id="complex-float64-base-v0.1.0">
 
 #### [@stdlib/complex/float64/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base)
 
@@ -47,7 +73,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="complex-float64-base-add-unreleased">
+<section class="package" id="complex-float64-base-add-v0.1.0">
 
 #### [@stdlib/complex/float64/base/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/add)
 
@@ -69,7 +95,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="complex-float64-base-assert-unreleased">
+<section class="package" id="complex-float64-base-assert-v0.1.0">
 
 #### [@stdlib/complex/float64/base/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/assert)
 
@@ -105,7 +131,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="complex-float64-base-assert-is-equal-unreleased">
+<section class="package" id="complex-float64-base-assert-is-equal-v0.1.0">
 
 #### [@stdlib/complex/float64/base/assert/is-equal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/assert/is-equal)
 
@@ -117,7 +143,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="complex-float64-base-assert-is-not-equal-unreleased">
+<section class="package" id="complex-float64-base-assert-is-not-equal-v0.1.0">
 
 #### [@stdlib/complex/float64/base/assert/is-not-equal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/assert/is-not-equal)
 
@@ -139,7 +165,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="complex-float64-base-assert-is-same-value-unreleased">
+<section class="package" id="complex-float64-base-assert-is-same-value-v0.1.0">
 
 #### [@stdlib/complex/float64/base/assert/is-same-value](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/assert/is-same-value)
 
@@ -161,7 +187,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="complex-float64-base-assert-is-same-value-zero-unreleased">
+<section class="package" id="complex-float64-base-assert-is-same-value-zero-v0.1.0">
 
 #### [@stdlib/complex/float64/base/assert/is-same-value-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/assert/is-same-value-zero)
 
@@ -183,7 +209,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="complex-float64-base-mul-unreleased">
+<section class="package" id="complex-float64-base-mul-v0.1.0">
 
 #### [@stdlib/complex/float64/base/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/mul)
 
@@ -262,8 +288,4 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
-
-</section>
-
-<!-- /.release -->
 
