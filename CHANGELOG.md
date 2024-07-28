@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.0">
 
-## Unreleased (2024-07-22)
+## 0.1.0 (2024-07-28)
 
 <section class="packages">
 
@@ -111,21 +111,7 @@
 
 <details>
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-equal` which provides the
-    same API and implementation.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
+No changes reported for this release.</details>
 
 </section>
 
@@ -232,12 +218,6 @@
 
     -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
 
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-equal` which provides the
-    same API and implementation.
-
 </section>
 
 <!-- /.breaking-changes -->
@@ -261,6 +241,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`a304cd8`](https://github.com/stdlib-js/stdlib/commit/a304cd8eba1aefe44f74a0273bd4c08345ee92f4) - **docs:** update namespace table of contents [(#2648)](https://github.com/stdlib-js/stdlib/pull/2648) _(by stdlib-bot, Athan Reines)_
 -   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
@@ -275,7 +256,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 -   [`1a93d8f`](https://github.com/stdlib-js/stdlib/commit/1a93d8f68b80f61255d114d779d407bd8eb4877d) - **feat:** add `complex/float64/base/assert/is-not-equal` _(by Athan Reines)_
 -   [`d925e71`](https://github.com/stdlib-js/stdlib/commit/d925e719b20718f0cd58d41e8630d700be89e725) - **feat:** add `complex/float64/base/assert/is-same-value` _(by Athan Reines)_
 -   [`45cadfe`](https://github.com/stdlib-js/stdlib/commit/45cadfed2906835952b096ac0b5feab837a01bce) - **feat:** add `complex/float64/base/assert/is-same-value-zero` _(by Athan Reines)_
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423) - **remove:** remove `complex/base/assert/is-equal` _(by Athan Reines)_
 
 </details>
 
