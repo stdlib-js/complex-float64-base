@@ -4,9 +4,67 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-01-18)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="complex-float64-base-mul-unreleased">
+
+#### [@stdlib/complex/float64/base/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/mul)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a0aef8f`](https://github.com/stdlib-js/stdlib/commit/a0aef8ff6010029008236151a684d1295a66f6a7) - add `strided` API
+-   [`e93b466`](https://github.com/stdlib-js/stdlib/commit/e93b4667550eed6470a805d8e244764c6fe26525) - add `assign` method
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`22a3dcf`](https://github.com/stdlib-js/stdlib/commit/22a3dcfe916b7f5c979d6ee93045d37add5d685d) - **docs:** update namespace TypeScript declaration comments [(#4794)](https://github.com/stdlib-js/stdlib/pull/4794) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`a0aef8f`](https://github.com/stdlib-js/stdlib/commit/a0aef8ff6010029008236151a684d1295a66f6a7) - **feat:** add `strided` API _(by Athan Reines)_
+-   [`e93b466`](https://github.com/stdlib-js/stdlib/commit/e93b4667550eed6470a805d8e244764c6fe26525) - **feat:** add `assign` method _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
