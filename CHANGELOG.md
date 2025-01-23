@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
 -   [`a4340c8`](https://github.com/stdlib-js/stdlib/commit/a4340c8e2aea6c40af52e3665c82e35af7b50f96) - add `muladd` to namespace
 -   [`82ba934`](https://github.com/stdlib-js/stdlib/commit/82ba9342e9964589c7742757380c72049d5389d4) - add `scale` to namespace
 
@@ -145,6 +146,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - **feat:** update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856) _(by stdlib-bot)_
 -   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
 -   [`eb938ff`](https://github.com/stdlib-js/stdlib/commit/eb938fff22223cbbfb04568e30a4f62f8455d3bc) - **bench:** fix incomplete refactoring _(by Athan Reines)_
 -   [`a4340c8`](https://github.com/stdlib-js/stdlib/commit/a4340c8e2aea6c40af52e3665c82e35af7b50f96) - **feat:** add `muladd` to namespace _(by Athan Reines)_
