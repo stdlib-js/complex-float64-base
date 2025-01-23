@@ -145,6 +145,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
 -   [`eb938ff`](https://github.com/stdlib-js/stdlib/commit/eb938fff22223cbbfb04568e30a4f62f8455d3bc) - **bench:** fix incomplete refactoring _(by Athan Reines)_
 -   [`a4340c8`](https://github.com/stdlib-js/stdlib/commit/a4340c8e2aea6c40af52e3665c82e35af7b50f96) - **feat:** add `muladd` to namespace _(by Athan Reines)_
 -   [`68cb0b2`](https://github.com/stdlib-js/stdlib/commit/68cb0b20a2333a13fa86f17c9efeb4909179a816) - **feat:** add `complex/float64/base/mul-add` _(by Athan Reines)_
