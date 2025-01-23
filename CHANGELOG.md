@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-22)
+## Unreleased (2025-01-23)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`a4340c8`](https://github.com/stdlib-js/stdlib/commit/a4340c8e2aea6c40af52e3665c82e35af7b50f96) - add `muladd` to namespace
 -   [`82ba934`](https://github.com/stdlib-js/stdlib/commit/82ba9342e9964589c7742757380c72049d5389d4) - add `scale` to namespace
 
 </section>
@@ -77,6 +78,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="complex-float64-base-mul-add-unreleased">
+
+#### [@stdlib/complex/float64/base/mul-add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/mul-add)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`68cb0b2`](https://github.com/stdlib-js/stdlib/commit/68cb0b20a2333a13fa86f17c9efeb4909179a816) - add `complex/float64/base/mul-add`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="complex-float64-base-scale-unreleased">
 
 #### [@stdlib/complex/float64/base/scale](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/scale)
@@ -122,6 +145,9 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`eb938ff`](https://github.com/stdlib-js/stdlib/commit/eb938fff22223cbbfb04568e30a4f62f8455d3bc) - **bench:** fix incomplete refactoring _(by Athan Reines)_
+-   [`a4340c8`](https://github.com/stdlib-js/stdlib/commit/a4340c8e2aea6c40af52e3665c82e35af7b50f96) - **feat:** add `muladd` to namespace _(by Athan Reines)_
+-   [`68cb0b2`](https://github.com/stdlib-js/stdlib/commit/68cb0b20a2333a13fa86f17c9efeb4909179a816) - **feat:** add `complex/float64/base/mul-add` _(by Athan Reines)_
 -   [`3f8a327`](https://github.com/stdlib-js/stdlib/commit/3f8a327f98267690ae7d101c84e522810986caf0) - **bench:** fix syntax _(by Athan Reines)_
 -   [`2ddce39`](https://github.com/stdlib-js/stdlib/commit/2ddce39825650066ba35c74a217ab6425e4f3c9c) - **bench:** fix copy-paste error _(by Athan Reines)_
 -   [`82ba934`](https://github.com/stdlib-js/stdlib/commit/82ba9342e9964589c7742757380c72049d5389d4) - **feat:** add `scale` to namespace _(by Athan Reines)_
