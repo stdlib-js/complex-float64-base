@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-23)
+## Unreleased (2025-03-10)
 
 <section class="packages">
 
@@ -146,6 +146,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b957f93`](https://github.com/stdlib-js/stdlib/commit/b957f93bfacfa2b307db9b30a45fa48ce5b4488b) - **docs:** fix description _(by Athan Reines)_
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - **feat:** update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856) _(by stdlib-bot)_
 -   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
 -   [`eb938ff`](https://github.com/stdlib-js/stdlib/commit/eb938fff22223cbbfb04568e30a4f62f8455d3bc) - **bench:** fix incomplete refactoring _(by Athan Reines)_
