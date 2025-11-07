@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`2b6e31a`](https://github.com/stdlib-js/stdlib/commit/2b6e31af8313d3b5de9aa1234ccd95c0ed52ffe0) - update `complex/float64/base` TypeScript declarations
+-   [`0bc68ba`](https://github.com/stdlib-js/stdlib/commit/0bc68ba0764320d5e2f7edbbd0d53cbd279c8e3e) - update `complex/float64/base/assert` TypeScript declarations
+-   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810)
+-   [`0cf2dd6`](https://github.com/stdlib-js/stdlib/commit/0cf2dd65ae1a209d306184a82c4226742bfa6103) - add `isAlmostEqual` exports to namespaces
+-   [`73f774e`](https://github.com/stdlib-js/stdlib/commit/73f774e9d2df804c06ac8198c0bdb11186788009) - add missing functions to namespace
+-   [`dfbf338`](https://github.com/stdlib-js/stdlib/commit/dfbf3388bb499ec7ec5f453758acec3e6d18ee0b) - add `assign` and `strided` methods to `complex/float64/base/div` [(#7771)](https://github.com/stdlib-js/stdlib/pull/7771)
+-   [`42bc50f`](https://github.com/stdlib-js/stdlib/commit/42bc50ff323a7739452261f9e022fdd39381f4b7) - add `complex/float64/base/assert/is-almost-equal` [(#7620)](https://github.com/stdlib-js/stdlib/pull/7620)
 -   [`404a4ed`](https://github.com/stdlib-js/stdlib/commit/404a4edd985350b32a67d87bb0fb0801fa70419f) - add `complex/float64/base/identity`
 -   [`7e1f49e`](https://github.com/stdlib-js/stdlib/commit/7e1f49e881547d1212a1b411fb98b15ac0fb3fff) - add `complex/float64/base/sub`
 -   [`27a5a10`](https://github.com/stdlib-js/stdlib/commit/27a5a100469ef790c3e12d32947f8f299b6b7c15) - add `complex/float64/base/neg`
@@ -27,12 +34,39 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`2b6e31a`](https://github.com/stdlib-js/stdlib/commit/2b6e31af8313d3b5de9aa1234ccd95c0ed52ffe0) - **feat:** update `complex/float64/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`0bc68ba`](https://github.com/stdlib-js/stdlib/commit/0bc68ba0764320d5e2f7edbbd0d53cbd279c8e3e) - **feat:** update `complex/float64/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`fea0e25`](https://github.com/stdlib-js/stdlib/commit/fea0e25bcdfef27741b914208a535240ef44e5a5) - **docs:** update example and remove excess whitespace _(by Athan Reines)_
+-   [`04b1546`](https://github.com/stdlib-js/stdlib/commit/04b1546ca3611169c371007d2ef16e5f0af392e0) - **style:** remove excess trailing lines _(by Athan Reines)_
+-   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - **feat:** add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`0cf2dd6`](https://github.com/stdlib-js/stdlib/commit/0cf2dd65ae1a209d306184a82c4226742bfa6103) - **feat:** add `isAlmostEqual` exports to namespaces _(by Philipp Burckhardt)_
+-   [`73f774e`](https://github.com/stdlib-js/stdlib/commit/73f774e9d2df804c06ac8198c0bdb11186788009) - **feat:** add missing functions to namespace _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`7483bef`](https://github.com/stdlib-js/stdlib/commit/7483bef13b1d3241347266d25a02957269419825) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`dfbf338`](https://github.com/stdlib-js/stdlib/commit/dfbf3388bb499ec7ec5f453758acec3e6d18ee0b) - **feat:** add `assign` and `strided` methods to `complex/float64/base/div` [(#7771)](https://github.com/stdlib-js/stdlib/pull/7771) _(by Aayush Khanna, stdlib-bot)_
+-   [`d293a23`](https://github.com/stdlib-js/stdlib/commit/d293a2321d3c9dc0c4e016cb890032d0b32d28fc) - **docs:** add missing periods _(by Philipp Burckhardt)_
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
+-   [`24b7f7d`](https://github.com/stdlib-js/stdlib/commit/24b7f7d6900b467339d0911981d3c093d1b82efa) - **test:** add missing test for third parameter _(by Athan Reines)_
+-   [`42bc50f`](https://github.com/stdlib-js/stdlib/commit/42bc50ff323a7739452261f9e022fdd39381f4b7) - **feat:** add `complex/float64/base/assert/is-almost-equal` [(#7620)](https://github.com/stdlib-js/stdlib/pull/7620) _(by Karan Anand, Athan Reines)_
+-   [`7cfd30f`](https://github.com/stdlib-js/stdlib/commit/7cfd30f9518e86adde577c3ebaacfd874e2cc651) - **test:** add appropriate values in test cases [(#7557)](https://github.com/stdlib-js/stdlib/pull/7557) _(by Shabareesh Shetty, Athan Reines)_
+-   [`46ff8ea`](https://github.com/stdlib-js/stdlib/commit/46ff8ea7761ae438c4718681c5890f146fb0985e) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a39fad8`](https://github.com/stdlib-js/stdlib/commit/a39fad8acb6663751c1153dc98df58ea22145ed5) - **docs:** update examples for `complex/float64/base/neg` [(#7270)](https://github.com/stdlib-js/stdlib/pull/7270) _(by Shabareesh Shetty)_
 -   [`22106cb`](https://github.com/stdlib-js/stdlib/commit/22106cb80c9f9c7221d85e5e7818ef99324bd98b) - **docs:** update examples for `complex/float64/base/sub` [(#7271)](https://github.com/stdlib-js/stdlib/pull/7271) _(by Shabareesh Shetty)_
 -   [`f482c99`](https://github.com/stdlib-js/stdlib/commit/f482c9978e9ff27b9c9bf4afe03a6ee8e79f254a) - **docs:** update examples for `complex/float64/base/mul-add` [(#7267)](https://github.com/stdlib-js/stdlib/pull/7267) _(by Shabareesh Shetty)_
@@ -87,8 +121,9 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Gururaj Gurram
 -   Karan Anand
