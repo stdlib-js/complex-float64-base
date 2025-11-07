@@ -1,3 +1,0 @@
-"use strict";var r=require('@stdlib/utils-define-read-only-property/dist'),e={};r(e,"add",require('@stdlib/complex-float64-base-add/dist'));r(e,"assert",require('@stdlib/complex-float64-base-assert/dist'));r(e,"div",require('@stdlib/complex-float64-base-div/dist'));r(e,"identity",require('@stdlib/complex-float64-base-identity/dist'));r(e,"mul",require('@stdlib/complex-float64-base-mul/dist'));r(e,"muladd",require('@stdlib/complex-float64-base-mul-add/dist'));r(e,"neg",require('@stdlib/complex-float64-base-neg/dist'));r(e,"scale",require('@stdlib/complex-float64-base-scale/dist'));r(e,"sub",require('@stdlib/complex-float64-base-sub/dist'));module.exports=e;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
