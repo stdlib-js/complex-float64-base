@@ -120,6 +120,11 @@
     "float64",
     "base"
   ],
+  "__stdlib__": {
+    "scaffold": {
+      "alias_prefix": "stdlib_base_complex128_"
+    }
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
