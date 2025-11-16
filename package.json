@@ -45,7 +45,8 @@
     "@stdlib/complex-float64-base-neg": "github:stdlib-js/complex-float64-base-neg#main",
     "@stdlib/complex-float64-base-scale": "github:stdlib-js/complex-float64-base-scale#main",
     "@stdlib/complex-float64-base-sub": "github:stdlib-js/complex-float64-base-sub#main",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.3.0",
