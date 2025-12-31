@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-16)
+## Unreleased (2025-12-31)
 
 <section class="features">
 
 ### Features
 
+-   [`fc753b9`](https://github.com/stdlib-js/stdlib/commit/fc753b9fdd260ec25461d3750212d0bb777bdb7b) - add `add3` to namespace
+-   [`d346a88`](https://github.com/stdlib-js/stdlib/commit/d346a885ca852b2f4dc58f42e84cc502d3ff05c5) - add `complex/float64/base/add3`
+-   [`de88a8e`](https://github.com/stdlib-js/stdlib/commit/de88a8ea8b3dadb0158d8f672d5e29f8334ba6d0) - update `complex/float64/base/assert` TypeScript declarations [(#9201)](https://github.com/stdlib-js/stdlib/pull/9201)
+-   [`7c681c7`](https://github.com/stdlib-js/stdlib/commit/7c681c773e6ee1817243fbfc788c82cb6abe76ed) - add `isAlmostSameValue` to namespace
+-   [`a33a861`](https://github.com/stdlib-js/stdlib/commit/a33a861d18e0877b8ddbea520efee0adc864b84d) - add `complex/float64/base/assert/is-almost-same-value`
 -   [`2b6e31a`](https://github.com/stdlib-js/stdlib/commit/2b6e31af8313d3b5de9aa1234ccd95c0ed52ffe0) - update `complex/float64/base` TypeScript declarations
 -   [`0bc68ba`](https://github.com/stdlib-js/stdlib/commit/0bc68ba0764320d5e2f7edbbd0d53cbd279c8e3e) - update `complex/float64/base/assert` TypeScript declarations
 -   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810)
@@ -38,6 +43,7 @@
 
 ### Bug Fixes
 
+-   [`f83da1e`](https://github.com/stdlib-js/stdlib/commit/f83da1eb81f4beb34c5480ee188d2c3103bdc20c) - use interface rather than class definition
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 
 </section>
@@ -50,6 +56,18 @@
 
 <details>
 
+-   [`7dc10cb`](https://github.com/stdlib-js/stdlib/commit/7dc10cb52051e0efc84ade242d44fb369d618851) - **bench:** fix invocation _(by Athan Reines)_
+-   [`f7e6175`](https://github.com/stdlib-js/stdlib/commit/f7e6175347c09f61893205fffd49bab4281d278a) - **refactor:** reorder declarations _(by Athan Reines)_
+-   [`1ba537e`](https://github.com/stdlib-js/stdlib/commit/1ba537e7f21003027ec5848d9d0872231a602c23) - **bench:** fix declarations _(by Athan Reines)_
+-   [`fc753b9`](https://github.com/stdlib-js/stdlib/commit/fc753b9fdd260ec25461d3750212d0bb777bdb7b) - **feat:** add `add3` to namespace _(by Athan Reines)_
+-   [`d346a88`](https://github.com/stdlib-js/stdlib/commit/d346a885ca852b2f4dc58f42e84cc502d3ff05c5) - **feat:** add `complex/float64/base/add3` _(by Athan Reines)_
+-   [`312d030`](https://github.com/stdlib-js/stdlib/commit/312d03010490af92d2c0d160ef96de0331fa7f25) - **docs:** fix comment _(by Athan Reines)_
+-   [`de88a8e`](https://github.com/stdlib-js/stdlib/commit/de88a8ea8b3dadb0158d8f672d5e29f8334ba6d0) - **feat:** update `complex/float64/base/assert` TypeScript declarations [(#9201)](https://github.com/stdlib-js/stdlib/pull/9201) _(by stdlib-bot)_
+-   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
+-   [`f83da1e`](https://github.com/stdlib-js/stdlib/commit/f83da1eb81f4beb34c5480ee188d2c3103bdc20c) - **fix:** use interface rather than class definition _(by Athan Reines)_
+-   [`7c681c7`](https://github.com/stdlib-js/stdlib/commit/7c681c773e6ee1817243fbfc788c82cb6abe76ed) - **feat:** add `isAlmostSameValue` to namespace _(by Athan Reines)_
+-   [`a33a861`](https://github.com/stdlib-js/stdlib/commit/a33a861d18e0877b8ddbea520efee0adc864b84d) - **feat:** add `complex/float64/base/assert/is-almost-same-value` _(by Athan Reines)_
+-   [`1466cce`](https://github.com/stdlib-js/stdlib/commit/1466cce297fd5071f8e9344dfc8832afebb47cdd) - **bench:** refactor to use string interpolation in `complex/float64/base/add` [(#8940)](https://github.com/stdlib-js/stdlib/pull/8940) _(by Krishna Awasthi)_
 -   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`2b6e31a`](https://github.com/stdlib-js/stdlib/commit/2b6e31af8313d3b5de9aa1234ccd95c0ed52ffe0) - **feat:** update `complex/float64/base` TypeScript declarations _(by Philipp Burckhardt)_
@@ -122,13 +140,14 @@
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Gunj Joshi
 -   Gururaj Gurram
 -   Karan Anand
+-   Krishna Awasthi
 -   Philipp Burckhardt
 -   Shabareesh Shetty
 
