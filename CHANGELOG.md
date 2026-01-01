@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-31)
+## Unreleased (2026-01-01)
 
 <section class="features">
 
 ### Features
 
+-   [`e6a30ce`](https://github.com/stdlib-js/stdlib/commit/e6a30ce5227ad8260959fe518e88875e4d85a975) - update `complex/float64/base` TypeScript declarations [(#9466)](https://github.com/stdlib-js/stdlib/pull/9466)
 -   [`fc753b9`](https://github.com/stdlib-js/stdlib/commit/fc753b9fdd260ec25461d3750212d0bb777bdb7b) - add `add3` to namespace
 -   [`d346a88`](https://github.com/stdlib-js/stdlib/commit/d346a885ca852b2f4dc58f42e84cc502d3ff05c5) - add `complex/float64/base/add3`
 -   [`de88a8e`](https://github.com/stdlib-js/stdlib/commit/de88a8ea8b3dadb0158d8f672d5e29f8334ba6d0) - update `complex/float64/base/assert` TypeScript declarations [(#9201)](https://github.com/stdlib-js/stdlib/pull/9201)
@@ -43,6 +44,7 @@
 
 ### Bug Fixes
 
+-   [`dd4c201`](https://github.com/stdlib-js/stdlib/commit/dd4c201b7790e12a3bd22eef43d64db0313f35a0) - update type signature for `strided` method in `complex/float64/base/add3`
 -   [`f83da1e`](https://github.com/stdlib-js/stdlib/commit/f83da1eb81f4beb34c5480ee188d2c3103bdc20c) - use interface rather than class definition
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 
@@ -56,6 +58,8 @@
 
 <details>
 
+-   [`e6a30ce`](https://github.com/stdlib-js/stdlib/commit/e6a30ce5227ad8260959fe518e88875e4d85a975) - **feat:** update `complex/float64/base` TypeScript declarations [(#9466)](https://github.com/stdlib-js/stdlib/pull/9466) _(by stdlib-bot)_
+-   [`dd4c201`](https://github.com/stdlib-js/stdlib/commit/dd4c201b7790e12a3bd22eef43d64db0313f35a0) - **fix:** update type signature for `strided` method in `complex/float64/base/add3` _(by Philipp Burckhardt)_
 -   [`7dc10cb`](https://github.com/stdlib-js/stdlib/commit/7dc10cb52051e0efc84ade242d44fb369d618851) - **bench:** fix invocation _(by Athan Reines)_
 -   [`f7e6175`](https://github.com/stdlib-js/stdlib/commit/f7e6175347c09f61893205fffd49bab4281d278a) - **refactor:** reorder declarations _(by Athan Reines)_
 -   [`1ba537e`](https://github.com/stdlib-js/stdlib/commit/1ba537e7f21003027ec5848d9d0872231a602c23) - **bench:** fix declarations _(by Athan Reines)_
