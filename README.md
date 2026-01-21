@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) double-precision complex floating-point number functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/complex-float64-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import complex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { add, add3, assert, div, identity, mul, muladd, neg, scale, sub } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base@esm/index.mjs';
+var complex = require( '@stdlib/complex-float64-base' );
 ```
 
 #### complex
@@ -79,6 +91,7 @@ The namespace contains the following functions:
 <div class="namespace-toc">
 
 -   <span class="signature">[`add( z1, z2 )`][@stdlib/complex/float64/base/add]</span><span class="delimiter">: </span><span class="description">add two double-precision complex floating-point numbers.</span>
+-   <span class="signature">[`add3( z1, z2, z3 )`][@stdlib/complex/float64/base/add3]</span><span class="delimiter">: </span><span class="description">compute the sum of three double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`div( z1, z2 )`][@stdlib/complex/float64/base/div]</span><span class="delimiter">: </span><span class="description">divide two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`identity( z )`][@stdlib/complex/float64/base/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function of a double-precision complex floating-point number.</span>
 -   <span class="signature">[`muladd( alpha, x, y )`][@stdlib/complex/float64/base/mul-add]</span><span class="delimiter">: </span><span class="description">perform a multiply-add operation involving three double-precision complex floating-point numbers.</span>
@@ -111,20 +124,11 @@ The namespace contains the following functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/complex-float64-base' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -148,7 +152,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -213,23 +217,25 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/complex/float64/base/add]: https://github.com/stdlib-js/complex-float64-base-add/tree/esm
+[@stdlib/complex/float64/base/add]: https://github.com/stdlib-js/complex-float64-base-add
 
-[@stdlib/complex/float64/base/div]: https://github.com/stdlib-js/complex-float64-base-div/tree/esm
+[@stdlib/complex/float64/base/add3]: https://github.com/stdlib-js/complex-float64-base-add3
 
-[@stdlib/complex/float64/base/identity]: https://github.com/stdlib-js/complex-float64-base-identity/tree/esm
+[@stdlib/complex/float64/base/div]: https://github.com/stdlib-js/complex-float64-base-div
 
-[@stdlib/complex/float64/base/mul-add]: https://github.com/stdlib-js/complex-float64-base-mul-add/tree/esm
+[@stdlib/complex/float64/base/identity]: https://github.com/stdlib-js/complex-float64-base-identity
 
-[@stdlib/complex/float64/base/mul]: https://github.com/stdlib-js/complex-float64-base-mul/tree/esm
+[@stdlib/complex/float64/base/mul-add]: https://github.com/stdlib-js/complex-float64-base-mul-add
 
-[@stdlib/complex/float64/base/neg]: https://github.com/stdlib-js/complex-float64-base-neg/tree/esm
+[@stdlib/complex/float64/base/mul]: https://github.com/stdlib-js/complex-float64-base-mul
 
-[@stdlib/complex/float64/base/scale]: https://github.com/stdlib-js/complex-float64-base-scale/tree/esm
+[@stdlib/complex/float64/base/neg]: https://github.com/stdlib-js/complex-float64-base-neg
 
-[@stdlib/complex/float64/base/sub]: https://github.com/stdlib-js/complex-float64-base-sub/tree/esm
+[@stdlib/complex/float64/base/scale]: https://github.com/stdlib-js/complex-float64-base-scale
 
-[@stdlib/complex/float64/base/assert]: https://github.com/stdlib-js/complex-float64-base-assert/tree/esm
+[@stdlib/complex/float64/base/sub]: https://github.com/stdlib-js/complex-float64-base-sub
+
+[@stdlib/complex/float64/base/assert]: https://github.com/stdlib-js/complex-float64-base-assert
 
 <!-- </toc-links> -->
 
