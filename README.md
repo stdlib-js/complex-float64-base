@@ -91,6 +91,7 @@ The namespace contains the following functions:
 <div class="namespace-toc">
 
 -   <span class="signature">[`add( z1, z2 )`][@stdlib/complex/float64/base/add]</span><span class="delimiter">: </span><span class="description">add two double-precision complex floating-point numbers.</span>
+-   <span class="signature">[`add3( z1, z2, z3 )`][@stdlib/complex/float64/base/add3]</span><span class="delimiter">: </span><span class="description">compute the sum of three double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`div( z1, z2 )`][@stdlib/complex/float64/base/div]</span><span class="delimiter">: </span><span class="description">divide two double-precision complex floating-point numbers.</span>
 -   <span class="signature">[`identity( z )`][@stdlib/complex/float64/base/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function of a double-precision complex floating-point number.</span>
 -   <span class="signature">[`muladd( alpha, x, y )`][@stdlib/complex/float64/base/mul-add]</span><span class="delimiter">: </span><span class="description">perform a multiply-add operation involving three double-precision complex floating-point numbers.</span>
@@ -217,6 +218,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/complex/float64/base/add]: https://github.com/stdlib-js/complex-float64-base-add
+
+[@stdlib/complex/float64/base/add3]: https://github.com/stdlib-js/complex-float64-base-add3
 
 [@stdlib/complex/float64/base/div]: https://github.com/stdlib-js/complex-float64-base-div
 
