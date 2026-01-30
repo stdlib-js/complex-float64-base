@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-float64-base",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Base (i.e., lower-level) double-precision complex number functions.",
   "license": "Apache-2.0",
   "author": {
@@ -36,16 +36,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float64-base-add": "^0.1.0",
-    "@stdlib/complex-float64-base-add3": "github:stdlib-js/complex-float64-base-add3#main",
+    "@stdlib/complex-float64-base-add": "^0.2.0",
+    "@stdlib/complex-float64-base-add3": "^0.1.0",
     "@stdlib/complex-float64-base-assert": "github:stdlib-js/complex-float64-base-assert#main",
     "@stdlib/complex-float64-base-div": "github:stdlib-js/complex-float64-base-div#main",
-    "@stdlib/complex-float64-base-identity": "github:stdlib-js/complex-float64-base-identity#main",
-    "@stdlib/complex-float64-base-mul": "^0.1.0",
-    "@stdlib/complex-float64-base-mul-add": "github:stdlib-js/complex-float64-base-mul-add#main",
-    "@stdlib/complex-float64-base-neg": "github:stdlib-js/complex-float64-base-neg#main",
-    "@stdlib/complex-float64-base-scale": "github:stdlib-js/complex-float64-base-scale#main",
-    "@stdlib/complex-float64-base-sub": "github:stdlib-js/complex-float64-base-sub#main",
+    "@stdlib/complex-float64-base-identity": "^0.1.0",
+    "@stdlib/complex-float64-base-mul": "^0.2.0",
+    "@stdlib/complex-float64-base-mul-add": "^0.1.0",
+    "@stdlib/complex-float64-base-neg": "^0.1.0",
+    "@stdlib/complex-float64-base-scale": "^0.1.0",
+    "@stdlib/complex-float64-base-sub": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -58,15 +58,15 @@
     "@stdlib/assert-is-same-float64array": "^0.2.2",
     "@stdlib/complex-float64-base-assert-is-almost-equal": "github:stdlib-js/complex-float64-base-assert-is-almost-equal#main",
     "@stdlib/complex-float64-base-assert-is-almost-same-value": "github:stdlib-js/complex-float64-base-assert-is-almost-same-value#main",
-    "@stdlib/complex-float64-base-assert-is-equal": "^0.1.1",
-    "@stdlib/complex-float64-base-assert-is-not-equal": "^0.1.1",
-    "@stdlib/complex-float64-base-assert-is-same-value": "^0.0.1",
-    "@stdlib/complex-float64-base-assert-is-same-value-zero": "^0.1.1",
-    "@stdlib/complex-float64-ctor": "^0.0.3",
+    "@stdlib/complex-float64-base-assert-is-equal": "^0.1.2",
+    "@stdlib/complex-float64-base-assert-is-not-equal": "^0.1.2",
+    "@stdlib/complex-float64-base-assert-is-same-value": "^0.0.2",
+    "@stdlib/complex-float64-base-assert-is-same-value-zero": "^0.1.2",
+    "@stdlib/complex-float64-ctor": "^0.1.0",
     "@stdlib/complex-float64-imag": "^0.1.1",
     "@stdlib/complex-float64-real": "^0.1.1",
     "@stdlib/complex-float64-reim": "^0.1.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/constants-float64-max": "^0.2.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
@@ -78,8 +78,8 @@
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-max": "^0.3.0",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/number-float64-base-assert-is-almost-equal": "github:stdlib-js/number-float64-base-assert-is-almost-equal#main",
-    "@stdlib/number-float64-base-assert-is-almost-same-value": "github:stdlib-js/number-float64-base-assert-is-almost-same-value#main",
+    "@stdlib/number-float64-base-assert-is-almost-equal": "^0.1.0",
+    "@stdlib/number-float64-base-assert-is-almost-same-value": "^0.1.0",
     "@stdlib/number-float64-base-assert-is-same-value": "^0.2.1",
     "@stdlib/number-float64-base-assert-is-same-value-zero": "^0.1.1",
     "@stdlib/number-float64-base-to-binary-string": "^0.2.2",
@@ -124,11 +124,6 @@
     "float64",
     "base"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "alias_prefix": "stdlib_base_complex128_"
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
