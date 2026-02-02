@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-02)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ee4e852`](https://github.com/stdlib-js/stdlib/commit/ee4e852c6aebea0c9ce7316f364736622e4bf6a4) - **docs:** fix comments and returns description [(#10015)](https://github.com/stdlib-js/stdlib/pull/10015) _(by Sachin Pangal)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Sachin Pangal
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.0">
 
 ## 0.2.0 (2026-01-30)
